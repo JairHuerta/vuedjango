@@ -1,10 +1,12 @@
+>
+//  Mi nombre llevaría a home 
 <template>
   <div>
     <b-navbar type="dark" variant="success" class="mb-3">
       <b-navbar-brand>Elements</b-navbar-brand>
 
       <b-navbar-nav>
-        <b-nav-item href="#">Home</b-nav-item>
+        <b-nav-item href="#">Jair Huerta</b-nav-item>
 
         <b-nav-item-dropdown text="User" right>
           <b-dropdown-item href="#">Account</b-dropdown-item>
@@ -30,7 +32,6 @@
     </b-navbar>
   </div>
 </template>
-
 
 <script>
 export default {

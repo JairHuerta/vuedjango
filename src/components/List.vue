@@ -1,14 +1,29 @@
 <template>
   <div class="container">
-    <ListDefault :elements-list="elements" />
+
+    <router-link to detail="/detail">Detail</router-link>
+
+    <div v-for="e in elements" v-bind:key="e.id">
+      <router-link :to=" '/detail/' + e.id">
+        <b-card
+          :title="e.title"
+        >
+
+        </b-card>
+        <b-card-text>
+          {{e.description}}
+        </b-card-text>
+      </router-link>
+
+    </div>
   </div>
 </template>
 
 <script>
-import ListDefault from "../partials/_ListDefault";
+{/* import ListDefault from "../partials/_ListDefault"; */}
 export default {
   components: {
-    ListDefault
+    //ListDefault
   },
   created() {
     this.findAll();
@@ -27,10 +42,3 @@ export default {
   }
 };
 </script>
-
-<style >
-.box {
-  border: 3px solid #ccc;
-  margin: 5px 0 0 0;
-}
-</style>
