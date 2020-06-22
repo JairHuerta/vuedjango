@@ -6,7 +6,7 @@
       <b-navbar-brand>Elements</b-navbar-brand>
 
       <b-navbar-nav>
-        <b-nav-item href="#">Jair Huerta</b-nav-item>
+        <b-nav-item href="/">Jair Huerta</b-nav-item>
 
         <b-nav-item-dropdown text="User" right>
           <b-dropdown-item href="#">Account</b-dropdown-item>
