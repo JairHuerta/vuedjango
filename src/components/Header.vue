@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="dark" class="mb-3">
+    <b-navbar type="dark" variant="success" class="mb-3">
       <b-navbar-brand>Elements</b-navbar-brand>
 
       <b-navbar-nav>

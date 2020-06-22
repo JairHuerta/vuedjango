@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+  {/* Es demostrativo */}
     <b-table striped hover :items="elements" :fields="fields"></b-table>
   </div>
 </template>
