@@ -3,11 +3,11 @@
     <Header/>
       <div class="container">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 md">
               <Categories/>
               <Types/>
             </div>
-            <div>
+            <div class="col-8 md">
               <router-view></router-view>
             </div>
           </div>
