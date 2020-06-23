@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 a.card-link,
 a.card-link:hover {
   color: #222;

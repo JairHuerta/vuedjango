@@ -19,12 +19,13 @@ Vue.config.productionTip = false
 import List from './components/List.vue'
 import Detail from './components/Detail.vue'
 import ListCategory from './components/ListCategory.vue'
+import ListType from './components/ListType.vue'
 
 const routes = [
   {path:'/',component:List},
-  {path:'/detail/:id', component:Detail}
-  {path:'/category/:id/elements', component: ListCategory }
-]
+  {path:'/detail/:id', component:Detail},
+  {path:'/category/:id/elements', component: ListCategory },
+  {path:'/type/:id/elements', component: ListType }
 ]
 
 const router = new VueRouter({
